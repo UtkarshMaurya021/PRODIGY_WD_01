@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'century', sans-serif;
+}
+
+nav {
+    background-color: #ff8000;
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: background-color 0.3s ease;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 150px;
+}
+
+nav a {
+    color: rgb(254, 254, 254);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active{
+    color: #ff0000; /* Change color on hover */
+}
+
+section{
+    min-height: 101vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(254, 254, 254);
+    font-size: 100px;
+    color: #080000;
+    font-weight: 500;
+}
+
+section:nth-child(odd){
+    background: rgb(239, 237, 237);
+}
